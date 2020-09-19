@@ -6,6 +6,7 @@ module.exports = (req, res) => {
     time: new Date(),
     code: 200,
     message: "success",
+    update: true
   }
   res.status(200).json(json);
 }
